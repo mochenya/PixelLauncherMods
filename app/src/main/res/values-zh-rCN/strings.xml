@@ -1,0 +1,274 @@
+<resources>
+
+    <string name="app_name">Pixel Launcher Mods</string>
+    <string name="search">搜索</string>
+
+    <string name="no_root_dialog_title">无Root权限</string>
+    <string name="no_root_dialog_content">Pixel Launcher Mods 运行需要有Root权限的设备。 请阅读常见问题以了解更多详情。</string>
+    <string name="no_root_dialog_close">关闭</string>
+
+    <string name="no_pixel_launcher_dialog_title">Pixel Launcher 没有安装</string>
+    <string name="no_pixel_launcher_dialog_content">你必须安装Pixel Launcher 才可以使用Pixel Launcher Mods</string>
+    <string name="no_pixel_launcher_dialog_close">关闭</string>
+
+    <string name="menu_bottom_nav_apps">应用</string>
+    <string name="menu_bottom_nav_shortcuts">快捷方式</string>
+    <string name="menu_bottom_nav_tweaks">调整</string>
+    <string name="menu_bottom_nav_options">更多</string>
+    <string name="apps_title">应用抽屉应用</string>
+    <string name="apps_loading">正在加载应用…</string>
+    <string name="apps_error">加载应用时出错</string>
+    <string name="apps_error_sub">确保您已授予应用Root 权限。 如果问题仍然存在，请尝试重新启动或清除 Pixel Launcher 的数据。</string>
+    <string name="apps_apply_icon_pack">应用图标包</string>
+
+    <string name="app_editor_input_label">标签</string>
+    <string name="app_editor_save">保存</string>
+    <string name="app_editor_normal_icon">应用抽屉</string>
+    <string name="app_editor_normal_icon_shortcut">图标</string>
+    <string name="app_editor_add_themed_icon">添加主题图标</string>
+    <string name="app_editor_themed_icon">主屏幕</string>
+    <string name="app_editor_themed_icon_shortcut">主题图标</string>
+    <string name="app_editor_loading">加载应用…</string>
+    <string name="app_editor_loading_shortcut">加载快捷方式…</string>
+    <string name="app_editor_saving">保存应用…</string>
+    <string name="app_editor_resetting">重置应用…</string>
+    <string name="app_editor_saving_shortcut">保存快捷方式…</string>
+    <string name="app_editor_resetting_shortcut">重置快捷方式…</string>
+    <string name="app_editor_reset">重置</string>
+    <string name="app_editor_dynamic_warning">该应用的图标是动态的，无法更改</string>
+    <string name="app_editor_app_shortcut_label_warning">无法编辑应用快捷方式标签</string>
+
+    <string name="app_editor_iconpicker_remove">删除主题图标</string>
+    <string name="app_editor_iconpicker_legacy_themed_title">主题图标（旧版）</string>
+    <string name="app_editor_iconpicker_lawnicons_title">Lawnicons</string>
+    <string name="app_editor_iconpicker_loading">加载图标源…</string>
+    <string name="app_editor_iconpicker_title">图标源</string>
+    <string name="app_editor_iconpicker_header">主题图标始终根据您的设备主题颜色着色。 使用自定义图标时，自适应图标和或没有纯色背景的图标效果最佳。</string>
+    <string name="app_editor_iconpicker_more">更多</string>
+    <string name="app_editor_iconpicker_apps">已安装的应用</string>
+    <string name="app_editor_iconpicker_apps_switch_title">自适应图标转换</string>
+    <string name="app_editor_iconpicker_apps_switch_subtitle">在较旧的非自适应图标添加一个白色的\'盘子\'</string>
+    <string name="app_editor_iconpicker_files">倒入图像</string>
+    <string name="app_editor_iconpicker_pack_loading">加载图标…</string>
+    <string name="app_editor_iconpicker_pack_title">图标包</string>
+    <string name="app_editor_iconpicker_pack_open_external">打开图标包</string>
+    <string name="app_editor_iconpicker_legacy_themed_header_content">图标包和自定义图像不能直接设置为主题图标。 对于更多主题图标，请考虑使用 Magisk 模块，通过overlay（叠加层）添加更多图标（有关详细信息，请参阅 XDA 文章）。</string>
+    <string name="app_editor_iconpicker_legacy_themed_loading">加载主题图标…</string>
+    <string name="app_editor_iconpicker_apps_loading">加载应用…</string>
+    <string name="app_editor_iconpicker_apps_title">已安装的应用</string>
+
+    <string name="shortcuts_title">主屏幕快捷方式</string>
+    <string name="shortcuts_error">找不到快捷方式</string>
+    <string name="shortcuts_error_sub">如果您希望使用快捷方式，请确保您已授予 Pixel Launcher Mods root 权限。 如果问题仍然存在，请尝试重启或清除 Pixel Launcher 的数据。</string>
+    <string name="shortcuts_loading">加载快捷方式…</string>
+
+    <string name="notification_channel_title_foreground_service">后台服务</string>
+    <string name="notification_channel_desc_foreground_service">保持后台服务运行的通知</string>
+    <string name="notification_title_foreground_service">Pixel Launcher Mods 正在运行</string>
+    <string name="notification_content_foreground_service">监听应用图标变化，点击隐藏。</string>
+    <string name="notification_channel_title_icon_applying">图标变化</string>
+    <string name="notification_channel_desc_icon_applying">更新时的进度通知 &amp; 应用图标</string>
+    <string name="notification_channel_title_update">更新</string>
+    <string name="notification_channel_desc_update">有可用更新时的通知</string>
+    <string name="notification_title_update">Pixel Launcher Mods 更新可用</string>
+    <string name="notification_title_content">Pixel Launcher Mods 有更新可用 (%1s to %1s)</string>
+    <string name="notification_title_applying_icons">应用图标</string>
+    <string name="notification_title_updating_icons">更新图标</string>
+    <string name="notification_title_updating_icon_packs">更新图标包</string>
+    <string name="notification_content_updating_icon_packs">这可能需要一会儿</string>
+    <string name="auto_icon_pack_loading">加载图标包…</string>
+    <string name="auto_icon_pack_error">没有找到图标包</string>
+    <string name="auto_icon_pack_header">将您的图标包拖到您希望应用图标的优先顺序中。 横线下面的图标包将不会被使用。\n<b>注意:</b>使用大量图标包可能需要一段时间。</string>
+    <string name="auto_icon_pack_apply">应用</string>
+    <string name="auto_icon_pack_snackbar">横线上方没有图标包！</string>
+    <string name="auto_icon_pack_applying">应用图标包...</string>
+    <string name="auto_icon_pack_applying_sub">这可能需要一会儿，具体取决于您选择了多少包以及安装了多少应用。</string>
+    <string name="auto_icon_pack_applying_done">已应用图标包</string>
+
+    <string name="tweaks_title">调整</string>
+    <string name="tweaks_resize_widgets_title">调整小部件</string>
+    <string name="tweaks_resize_widgets_content">调整小部件的大小超出其正常范围</string>
+    <string name="tweaks_resize_widgets_sheet_unselected">点击一个小部件开始</string>
+    <string name="tweaks_resize_widgets_sheet_unselected_info">注意：图标没有主题，仅供参考。</string>
+    <string name="widget_resize_loading">加载小部件...</string>
+    <string name="tweaks_hide_clock">隐藏时钟</string>
+    <string name="tweaks_hide_clock_content">当 Pixel Launcher 显示时，隐藏状态栏中的时钟。\n<b>注意：这也适用于最近任务（后台）的界面，因为它由 Pixel Launcher 处理。</b></string>
+    <string name="hide_apps_loading">加载中...</string>
+    <string name="hide_apps_magisk_title">需要 Magisk 模块</string>
+    <string name="hide_apps_magisk_content">此选项需要 Pixel Launcher Mods Magisk 模块。\n\n需要安装模块，首先使用下面的按钮保存模块，然后使用<b>从存储安装</b>Magisk 中的选项来安装它，然后重启您的设备。</string>
+    <string name="hide_apps_magisk_button">保存模块</string>
+    <string name="tweaks_hide_apps">隐藏应用</string>
+    <string name="tweaks_hide_apps_content">从应用抽屉中隐藏应用</string>
+    <string name="tweaks_apply">应用调整</string>
+    <string name="hide_apps_save">应用</string>
+    <string name="overlay_apply_applying">正在应用调整…</string>
+    <string name="overlay_apply_success">已调整应用</string>
+    <string name="tweaks_apply_failed">调整失败</string>
+    <string name="tweaks_apply_close">关闭</string>
+    <string name="tweaks_apply_save_log">保存日志</string>
+    <string name="tweaks_widget_replacement_preview_title">选择替换位置</string>
+    <string name="tweaks_widget_replacement_preview_bottom">底部</string>
+    <string name="tweaks_widget_replacement_preview_top">顶部</string>
+    <string name="tweaks_widget_replacement">一目了然 / 搜索框</string>
+    <string name="tweaks_widget_replacement_content"><b>实验性的:</b>更换概览<b>或者</b>带有您选择的小部件的搜索框</string>
+    <string name="proxy_widget_loading">加载中...</string>
+    <string name="proxy_widget_empty">点击进行配置</string>
+    <string name="proxy_widget_error">该小部件加载失败\n尝试替换不同的小部件</string>
+    <string name="tweaks_widget_replacement_switch">启用替换</string>
+    <string name="tweaks_widget_replacement_provider">选择小部件</string>
+    <string name="tweaks_widget_replacement_provider_content_unset">设置要显示的小部件</string>
+    <string name="tweaks_widget_replacement_provider_content_set">设置要显示的小部件。 目前设置的为%1s.</string>
+    <string name="tweaks_widget_replacement_provider_reconfigure">重新配置小部件</string>
+    <string name="tweaks_widget_replacement_provider_reconfigure_content">在其他的应用中更改此小部件的设置</string>
+    <string name="tweaks_widget_replacement_loading">加载中...</string>
+    <string name="tweaks_widget_replacement_save">应用</string>
+    <string name="tweaks_widget_replacement_info">由于 Pixel Launcher 的限制，无法同时替换概览和搜索框。\n\n<b>注意:</b>并非所有小部件都与此功能兼容。 如果您选择的小部件无法加载（例如，它显示空白或显示通用搜索框），请尝试其他小部件。</string>
+    <string name="tweaks_recents">最近任务（后台）</string>
+    <string name="tweaks_recents_content">调整最近任务（后台）视图</string>
+    <string name="tweaks_recents_background_transparency">背景透明度</string>
+    <string name="tweaks_recents_background_transparency_content"><b>注意：较低的值可能会降低可读性</b>。 背景可能仍然模糊，具体取决于您的设备。</string>
+    <string name="tweaks_recents_loading">加载中...</string>
+    <string name="tweaks_recents_save">保存</string>
+    <string name="tweaks_recents_formatter">%1s%%</string>
+
+    <string name="widget_replacement_picker_title">选择小部件</string>
+    <string name="widget_replacement_picker_loading">加载小部件…</string>
+    <string name="widget_replacement_picker_item_app_count_one">%1s 小部件</string>
+    <string name="widget_replacement_picker_item_app_count_other">%1s 小部件</string>
+    <string name="widget_replacement_picker_header">小部件的预览可能与它们在 Pixel Launcher 中的显示方式不同。 大小是近似值，动态预览被有意地裁剪以模拟更小的空间。</string>
+    <string name="widget_replacement_picker_error_toast">设置此小部件时出错。</string>
+    <string name="proxy_widget_preview">@string/app_name</string>
+    <string name="tweaks_deferred_restart">无缝重启</string>
+    <string name="tweaks_deferred_restart_content">配置时重启 Pixel Launcher 以最大限度地减少对设备使用的干扰</string>
+
+    <string name="deferred_restart_loading">加载中...</string>
+    <string name="deferred_restart_header">无缝重启允许 Pixel Launcher 在您不使用时在后台重启。如果您仍然遇到意外重启，请尝试使用\"屏幕关闭时\"选项，使其仅在设备显示屏关闭时重启。如果您遇到不需要的图标重置，您可能需要使用更激进的设置。 </string>
+    <string name="deferred_restart_instant_title">立刻重启</string>
+    <string name="deferred_restart_instant_content">进行更改后立刻重启 Pixel Launcher，有效地禁用无缝重启。\n<b>注意:</b>立刻重启包括当启动器可见时，您可能会在使用过程中丢失滚动位置。</string>
+    <string name="deferred_restart_background_title">后台重启</string>
+    <string name="deferred_restart_background_content">当 Pixel Launcher 不可见时重启它，即。 它在后台。 在这种模式下，图标重置应该是最小的，除非你让你的设备始终显示启动器。\n<b>推荐的</b></string>
+    <string name="deferred_restart_screen_off_title">屏幕关闭时重启</string>
+    <string name="deferred_restart_screen_off_content">仅在屏幕关闭时重新启动，以实现无缝衔接。 如果您长时间使用您的设备并启用了自动更新，您可能会遇到此模式下的图标重置。</string>
+    <string name="deferred_restart_disabled">关闭</string>
+    <string name="deferred_restart_disabled_content">完全禁用自动重启，<b>您需要在需要时手动重新应用图标。</b></string>
+
+    <string name="backup_restore_backup_close">关闭</string>
+    <string name="backup_restore_backup_creating">正在创建备份...</string>
+    <string name="backup_restore_backup_creating_success">已创建备份</string>
+    <string name="backup_restore_backup_creating_failed">创建备份失败</string>
+
+    <string name="options_backup_restore">备份 &amp; 恢复</string>
+    <string name="options_backup_restore_content">备份 &amp; 恢复您的应用选项和设置</string>
+    <string name="options_backup_restore_backup">备份</string>
+    <string name="options_backup_restore_backup_content">将 Pixel Launcher Mods 选项和设置备份到您的设备或云端</string>
+    <string name="options_backup_restore_restore">恢复</string>
+    <string name="options_backup_restore_restore_content">从您的设备或云端恢复备份</string>
+
+    <string name="backup_restore_restore_close">关闭</string>
+    <string name="backup_restore_restore_restoring">正在恢复备份…</string>
+    <string name="backup_restore_restore_issues_title">%1d 跳过</string>
+    <string name="backup_restore_restore_issues_content_one">%1d 应用在恢复期间被跳过。点击了解更多信息。</string>
+    <string name="backup_restore_restore_issues_content_other">%1d 应用在恢复期间被跳过。点击了解更多信息。</string>
+    <string name="backup_restore_restore_magisk_title">需要 Magisk 模块</string>
+    <string name="backup_restore_restore_magisk_content">此备份包含需要 Pixel Launcher Mods Magisk 模块的调整。 点击了解更多信息。</string>
+    <string name="backup_restore_restore_tweaks_title">恢复调整</string>
+    <string name="backup_restore_restore_tweaks_content">此备份包含调整设置，必须单独应用。 点击以应用它们。\n<b>注意:</b>由于系统限制，无法恢复您选择的小部件替换（如果已设置），只能恢复其的位置。</string>
+    <string name="backup_restore_restore_restoring_success">备份恢复</string>
+    <string name="backup_restore_restore_restoring_failed">备份恢复失败</string>
+
+    <string name="restore_issue_title">跳过的应用</string>
+    <string name="restore_issue_type_app">一个应用</string>
+    <string name="restore_issue_type_shortcut">一个快捷方式</string>
+    <string name="restore_issue_type_app_short">应用</string>
+    <string name="restore_issue_type_shortcut_short">快捷方式</string>
+    <string name="restore_issue_component_title">{type_short_upper} 没有找到</string>
+    <string name="restore_issue_component_content">{type} 和包名为 %1s 没有找到。</string>
+    <string name="restore_issue_package_title">{type_short_upper} 图标没有找到</string>
+    <string name="restore_issue_package_content">一个包名为 %1s 的应用没有找到, 所以这个应用不能被应用 {type_short} 且其包名为 %1s.</string>
+    <string name="restore_issue_icon_pack_title">找不到图标包</string>
+    <string name="restore_issue_icon_pack_content">适合 {type_short} %1s 的图标没有在图标包找到和包名为 %1s 所匹配的，所以它不能应用这个 {type_short}。检查图标包是否已安装并且是最新的。</string>
+    <string name="restore_issue_lawnicon_title">Lawnicon 图标包没有找到</string>
+    <string name="restore_issue_lawnicon_content">一个 Lawnicon 的 {type_short} %1s (图标 %1s) 没有被找到，检查您使用的 Lawnicons 版本与进行此备份时的版本相同。</string>
+    <string name="restore_issue_legacy_mono_title">未找到旧版主题图标</string>
+    <string name="restore_issue_legacy_mono_content">一个旧版主题图标的 {type_short} %1s (图标 %1s) 没有被找到。如果您之前使用叠加层来添加更多图标，请检查它是否已安装。</string>
+    <string name="restore_issue_mono_icon_not_compatible_title">主题图标不兼容</string>
+    <string name="restore_issue_mono_icon_not_compatible_content">备份中为 {type_short} %1s 设置的主题图标与此版本的 Android 不兼容。</string>
+    <string name="restore_issue_static_icon_title">找不到图标</string>
+    <string name="restore_issue_static_icon_content">在此备份中找不到 %1s 的图标，请检查备份是否已被修改。</string>
+    <string name="restore_issue_package_unknown">未知</string>
+
+    <string name="magisk_info_title">Magisk 模块</string>
+
+    <string name="options_title">选项</string>
+    <string name="options_reapply_icons">重新应用图标</string>
+    <string name="options_reapply_icons_content">手动重新应用图标，如果图标在更新后卡在非主题状态时使用</string>
+    <string name="options_reapply_title">重新应用图标...</string>
+    <string name="options_reapply_finished">重新应用图标</string>
+    <string name="options_advanced">高级设置</string>
+    <string name="options_advanced_content">高级设置，包括重置、禁用快捷方式更新和手动重启 Pixel Launcher</string>
+    <string name="options_advanced_restart">重启 Pixel Launcher</string>
+    <string name="options_advanced_restart_content">立即重启 Pixel Launcher</string>
+    <string name="options_advanced_restart_finished">重启完成</string>
+    <string name="options_advanced_shortcut">禁用应用快捷方式更新</string>
+    <string name="options_advanced_shortcut_content">一些应用会非常频繁地发送应用快捷方式更新，这会增加 Pixel Launcher Mods 的电池使用量并导致更频繁的重启。 如果您遇到这种情况，禁用应用快捷方式更新将解决问题，但您可能需要更频繁地重新应用图标，以免它们取消应用主题。</string>
+    <string name="options_advanced_reset">重置</string>
+    <string name="options_advanced_reset_content">重置所有修改过的应用 &amp; 应用快捷方式的标签和图标，并重建 Pixel Launcher 的图标缓存</string>
+    <string name="options_advanced_debug_restart_reason_toast">调试：显示重启原因的消息提示框</string>
+    <string name="options_advanced_debug_restart_reason_toast_content">显示一个消息提示框带有<b>潜在的</b>重启的原因，当它发生时。 请注意，这并不能<i>保证</i>重启，但如果发生重启，它会告诉您是什么原因导致了重启。</string>
+    <string name="reset_info_loading">加载中...</string>
+    <string name="reset_info_warning">重置是不可逆的。 如果您希望保留您的应用和应用快捷方式配置，请确保在继续之前进行了备份</string>
+    <string name="reset_info_title">警告</string>
+    <string name="reset_info_included">重置将会删除</string>
+    <string name="reset_info_included_content">• 修改后的应用标签和图标，主题和正常\n• 修改后的应用快捷方式图标\n• 自动配置图标包\n• 隐藏的应用配置\n• 小部件替换配置</string>
+    <string name="reset_info_not_included">重置将<b>不</b>会删除</string>
+    <string name="reset_info_not_included_content">%1s• 您的 Pixel Launcher Mods 设置，例如隐藏时钟或无缝重启配置</string>
+    <string name="reset_info_not_included_content_extra_shortcut">• 旧的快捷方式，例如 \"%1s\"\n</string>
+    <string name="reset_info_continue">继续</string>
+    <string name="reset_apply_title">重置中…</string>
+    <string name="reset_apply_content">这可能需要几分钟时间，具体取决于您安装的应用数量</string>
+    <string name="reset_apply_toast_success">重置完成</string>
+    <string name="reset_apply_toast_failed">重置失败</string>
+    <string name="menu_hide_apps_deselect_all">取消全选</string>
+
+    <string name="options_faq">常问问题</string>
+    <string name="options_faq_short">常问问题</string>
+    <string name="options_faq_content">常见问题解答，包括<b>如何干净地卸载 Pixel Launcher Mods，而不留下痕迹</b></string>
+
+    <string name="xda_thread">XDA 文章</string>
+    <string name="github">GitHub</string>
+    <string name="libraries">第三方库</string>
+    <string name="donate">捐赠</string>
+    <string name="twitter">在推特上关注我</string>
+    <string name="about_version">版本号 %1s\n开发者 Kieron Quinn</string>
+    <string name="about_contributors">贡献者</string>
+    <string name="about_contributors_icons">图标</string>
+    <string name="about_contributors_icons_content"><![CDATA[<b><a href="https://material.io/resources/icons">Material 图标</a></b> (<a href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache Licence 2.0</a>)<br><b><a href="https://github.com/Templarian/MaterialDesign">Material Design 图标</a></b> (<a href="https://github.com/Templarian/MaterialDesign/blob/master/LICENSE">开放源代码许可证</a>)<br><a href="https://github.com/LawnchairLauncher/lawnicons/blob/develop/app/src/main/res/drawable/magisk.xml"><b>Magisk 图标来自 Lawnicons</b> - Patryk Michalik</a> (<a href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache Licence 2.0</a>)<br><b><a href="https://github.com/HatScripts/circle-flags">circle-flags</a></b> by HatScripts (<a href="https://github.com/HatScripts/circle-flags/blob/gh-pages/LICENSE">MIT Licence</a>)]]></string>
+    <string name="about_contributors_overlay">Dynamic Overlay Generation</string>
+    <string name="about_contributors_overlay_content"><![CDATA[Statically compiled <b><a href="https://github.com/rendiix/termux-aapt">aapt</a></b> and <b><a href="https://github.com/rendiix/termux-zipalign">zipalign</a></b> by <a href="https://github.com/rendiix">rendixx</a> (<a href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache Licence 2.0</a>)<br><a href="https://android.googlesource.com/platform/tools/apksig/">apksigner</a> from AOSP (<a href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache Licence 2.0</a>)]]></string>
+
+    <!-- Update downloader -->
+    <string name="snackbar_update">可用更新</string>
+    <string name="snackbar_update_button">更新</string>
+    <string name="settings_update_heading">Pixel Launcher Mods 版本 %1s</string>
+    <string name="settings_update_subheading">当前版本 %1s</string>
+    <string name="settings_update_changes">更改</string>
+    <string name="settings_update_open_installer">开始安装</string>
+    <string name="settings_update_done">下载完成</string>
+    <string name="settings_update_loading">加载中...</string>
+    <string name="settings_update_fab">下载</string>
+    <string name="download_manager_description">正在下载更新…</string>
+    <string name="update_downloader_downloading_title">正在下载更新…</string>
+    <string name="update_downloader_downloading_failed">下载失败</string>
+    <string name="update_downloader_github">在浏览器中下载</string>
+
+    <!-- Restart Reason Debug Toasts -->
+    <string name="restart_reason_template">可能的重启： %1s</string>
+    <string name="restart_reason_package">%1s 更改</string>
+    <string name="restart_reason_restart">PL 被杀 / 图标重置</string>
+    <string name="restart_reason_config">图标配置已更改</string>
+
+    <!-- Contributors: Translation Languages -->
+    <string name="contributors_translators">翻译者</string>
+    <string name="contributors_translators_romanian">罗马尼亚语</string>
+
+</resources>
